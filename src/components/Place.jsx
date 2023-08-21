@@ -21,7 +21,7 @@ const Place = (props) => {
                 style={{ fontSize: '1.1rem', color: '#F55A5A' }}
                 class="fa-solid fa-location-dot"
               ></i>
-            </p>{' '}
+            </p>
             <p className="location">{location}</p>
             <p className="google-map">View on Google Maps</p>
           </div>
@@ -32,8 +32,8 @@ const Place = (props) => {
             </p>
             <p className="description">{description}</p>
           </div>
-        </div>{' '}
-      </div>{' '}
+        </div>
+      </div>
       <hr className="hr-line" />
     </>
   );
