@@ -7,6 +7,8 @@ body {
   margin: 0;
   padding: 0;
   max-width: 550px;
+  margin: 0 auto;
+  font-family: 'Inter', sans-serif;
 }
 
 /* navbar */
@@ -22,4 +24,74 @@ body {
 
 .navbar h1 {
   font-size: 1.5rem;
+}
+
+/* Place Container  */
+.container,
+.container img {
+  height: 220px;
+}
+.container {
+  margin: 2em 1em;
+  display: flex;
+  flex-direction: row;
+}
+
+.container img {
+  width: 160px;
+  border-radius: 0.4em;
+}
+
+.img {
+  margin-right: 1.5em;
+}
+
+/* place info */
+
+.info-container {
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  margin: 1em 0;
+}
+
+.info-place h1,
+.info-place .date {
+  margin: 0.5em 0;
+}
+
+.place {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 25px;
+  width: 100%;
+  gap: 1em;
+}
+
+.location {
+  text-transform: uppercase;
+}
+.google-map {
+  color: #918e9b;
+  text-decoration: underline;
+  font-size: 0.8rem;
+}
+
+.date {
+  font-weight: bold;
+}
+
+.description {
+  font-size: 0.8rem;
+  line-height: 1.5;
+}
+
+.hr-line {
+  border: 1px solid rgb(230, 230, 230);
+  margin: 0 1em;
+}
+
+.hr-line:last-child {
+  display: none;
 }
